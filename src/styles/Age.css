@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.keto-diet {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.according-to-age {
+    display: flex;
+    flex-direction: row;
+}
+
+.according-to {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.age-title {
+    margin-left: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.one-minute-quiz {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+
+.one-minute {
+    font-weight: bold;
+}
+
+.quiz {
+    margin-left: 5px;
+}
+
+.gender-ages {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
